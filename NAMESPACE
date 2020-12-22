@@ -1,0 +1,7 @@
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)
+importFrom("stats", "pt", "qt", "var")
+importFrom("dplyr", "mutate", "filter", "group_by", "summarise")
+importFrom("purrr", "pluck")
+importFrom("tidyr", "%>%")
+useDynLib(AGC, .registration = TRUE)
