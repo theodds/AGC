@@ -1,0 +1,14 @@
+---
+title: "README"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This package implements the _accelerated $g$-computation_ algorithm of Linero (2020+). The main function is given by `AGCCombine`. Run `?AGCCombine` for details on how to use the function. The package can be installed by running
+```{r,eval=FALSE}
+devtools::install_github("theodds/AGC")
+```
+More detailed instructions and implementations for commonly used models will follow shortly.
